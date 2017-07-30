@@ -1,0 +1,21 @@
+blockquote
+{
+  color: #444;
+  font-size: italic;
+}
+
+blockquote::before, blockquote::after
+{
+  color:#000;
+  font-size: 3em;
+}
+
+blockquote::before
+{
+  content: "\201C"
+}
+
+blockquote::after
+{
+  content: "\201D"
+}

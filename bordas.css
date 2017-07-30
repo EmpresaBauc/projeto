@@ -1,0 +1,37 @@
+.tnt
+{
+	
+	/*fazendo um circulo*/
+	border-radius:50%;
+	border: 5px solid #000;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+
+
+	/*espaçamento meu eu quis*/
+
+	margin: 20px 20px 20px 20px;
+}
+
+
+.counter
+{
+	background-color: #000;
+	border-top-left-radius: 25px 10px;
+	border-top-right-radius: 25px 10px;
+	color:white;
+	display: block;
+	font-size:1.7em;
+	height: 50px;
+	line-height: 50px; 
+	text-align: center;
+	width: 50px;
+
+	/*espaçamento meu eu quis*/
+
+	margin: 20px 20px 20px 20px;
+}
+
+

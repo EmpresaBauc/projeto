@@ -1,0 +1,43 @@
+@media print
+{
+  *{
+    background: transparent !important;
+    border-color: #000 !important;
+    box-shadow: none !important;
+    color: #000 !important;
+    text-shadow: none !important;
+  }
+
+  a{
+    text-decoration: underline !important;
+  }
+
+  a[href]::after
+  {
+    content: "("attr(href)")";
+  }
+
+  a[href^="javascript:"]::after, a[href^="#"]::after
+  {
+    content:"";
+  }
+
+  /*realiza a quebra de pagina caso seja um article, isso na impressao*/
+  article
+  {
+    page-break-after: always;
+  }
+
+  /*força a quebra de pagina na impressão*/
+  .page-break
+  {
+    display: block;
+    page-break-before: always;
+  }
+
+
+  /*define que o conteúdo de paragrafo não deve ser quebrado em duas paginas*/
+  p {
+    page-break-inside: avoid;
+  }
+}

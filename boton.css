@@ -1,0 +1,30 @@
+.box
+{
+  background-color: Green;
+  width: 250px;
+}
+
+.box-with-padding
+{
+  background-color: Blue;
+  padding: 0 25px;
+  width: 250px;
+}
+
+* {
+box-sizing: border-box;
+}
+
+
+section{
+  border:1px solid #000;
+  height: 100px;
+  margin: 40px auto;
+  width: 400px;
+}
+
+h1
+{
+  font-size: 1.2em;
+  text-align: center;
+}

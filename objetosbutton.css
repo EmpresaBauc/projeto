@@ -1,0 +1,27 @@
+
+/*utilizando orientação a objetos para criação das classes de css, sendo assim é possivel
+aplicar varios efeitos de acordo com cada classe*/
+.button
+{
+  background-color: #999999;
+  color:white;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+.primary-button
+{
+  background-color: #389739;
+}
+
+.big-button
+{
+  font-size: 1.1em;
+}
+
+.small-button
+{
+  font-size: 0.9em;
+}
